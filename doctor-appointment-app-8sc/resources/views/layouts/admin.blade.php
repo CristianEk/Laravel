@@ -1,3 +1,6 @@
+{{--Toma los parametros del dashboard--}}
+@props(['breadcrumbs' => []])
+
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
@@ -29,10 +32,15 @@
 
         @include('layouts.includes.admin.sidebar')
         <div class="p-4 sm:ml-64">
+
+
 <!-- añadir margen superior -->
-        <div class="mt-14">
-            {{$slot}}
+        <div class="mt-14 flex items-center justify-between w-full">
+            {{--Incluir breadcrumb--}}
+            @include('Layouts.includes.admin.breadcrumb')
+            
         </div>
+        {{$slot}}
         </div>
         @stack('modals')
 
