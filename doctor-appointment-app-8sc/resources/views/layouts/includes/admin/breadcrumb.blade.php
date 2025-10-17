@@ -28,7 +28,7 @@
         @if (count($breadcrumbs)>1)
         {{--Mt : MarginTop--}}
         <h6 class = "font-bold mt-2">
-            {{end($breadcrumbs['name'])}}
+            {{end($breadcrumbs)['name']}}
         </h6>
             
         @endif
