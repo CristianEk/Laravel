@@ -16,6 +16,8 @@
         
         <script src="https://kit.fontawesome.com/f05834f7d2.js" crossorigin="anonymous"></script>
 
+        <wireui:scripts/>
+
         <!-- Styles -->
         @livewireStyles
 
