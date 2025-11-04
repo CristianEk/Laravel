@@ -38,10 +38,13 @@
 
 <!-- añadir margen superior -->
         <div class="mt-14 flex items-center justify-between w-full">
-            {{--Incluir breadcrumb--}}
-            @include('Layouts.includes.admin.breadcrumb')
-            
-        </div>
+                {{--Incluir breadcrumb--}}
+                @include('Layouts.includes.admin.breadcrumb')
+
+                {{--Slot opcional para acciones (botones)--}}
+                {{ $actions ?? '' }}
+            </div>
+
         {{$slot}}
         </div>
         @stack('modals')
