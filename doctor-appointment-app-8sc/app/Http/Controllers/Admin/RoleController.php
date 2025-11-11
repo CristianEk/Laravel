@@ -41,7 +41,7 @@ class RoleController extends Controller
         [
             'icon'=>'success',
             'title'=>'Rol creado correctamente',
-            'text'=>'El rol ha sido creado con exito '
+            'text'=>'El rol ha sido creado con éxito '
         ]);
 
         //redireccionar a la tabla principal
@@ -107,7 +107,7 @@ class RoleController extends Controller
         [
             'icon'=>'success',
             'title'=>'Rol actualizado correctamente',
-            'text'=>'El rol ha sido actualizado con exito '
+            'text'=>'El rol ha sido actualizado con éxito '
         ]); 
 
         //redireccionar a la tabla principal
@@ -139,7 +139,7 @@ class RoleController extends Controller
         [
             'icon'=>'success',
             'title'=>'Rol eliminado correctamente',
-            'text'=>'El rol ha sido eliminado con exito '
+            'text'=>'El rol ha sido eliminado con éxito '
         ]); 
 
         //redireccionar a la tabla principal

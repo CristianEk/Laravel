@@ -78,14 +78,14 @@
                     //evita que se envie
                     e.preventDefault();
                     Swal.fire({
-                        title: "Are you sure?",
+                        title: "¿Estás seguro?",
                         imageUrl: "https://media1.tenor.com/m/NpxX43CMKcsAAAAd/omni-man-omni-man-are-you-sure.gif",
-                        text: "No podras revertir los cambios!",
+                        text: "No podrás revertir los cambios!",
                         //icon: "warning",
                         showCancelButton: true,
                         confirmButtonColor: "#3085d6",
                         cancelButtonColor: "#d33",
-                        confirmButtonText: "Si, borralo!",
+                        confirmButtonText: "Sí, borralo!",
                         cancelButtonText: "No lo borres!"
                         }).then((result) => {
                             if (result.isConfirmed){
