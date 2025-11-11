@@ -40,8 +40,8 @@ class RoleController extends Controller
         session()->flash('swal',
         [
             'icon'=>'success',
-            'title'=>'Role created successfully',
-            'text'=>'The role has been created successfully'
+            'title'=>'Rol creado correctamente',
+            'text'=>'El rol ha sido creado con exito'
         ]);
 
         //redireccionar a la tabla principal
