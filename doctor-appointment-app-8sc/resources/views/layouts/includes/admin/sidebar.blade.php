@@ -17,6 +17,14 @@
             'active' => request()->routeIs('admin.roles.*')
             //'active' => false,
         ],
+        [
+            //se agrego el link de usuarios
+            'name' => 'Usuarios',
+            'icon' => 'fa-solid fa-user',
+            'href' => route('admin.users.index'),
+            'active' => request()->routeIs('admin.users.*')
+            //'active' => false,
+        ],
     ];
 @endphp
 

@@ -9,8 +9,8 @@
                     </svg>
                 </button>
                 <a href="/" class="flex ms-2 md:me-24">
-                <img src="{{asset('https://flowbite.com/docs/images/logo.svg')}}" class="Logo" alt="FlowBite Logo" />
-                <span class="self-center text-xl font-semibold sm:text-2xl whitespace-nowrap dark:text-white">Simify</span>
+                <img src="https://i.pinimg.com/originals/ff/7e/d0/ff7ed02a5b1dbc077768112dc7336d15.jpg" class="w-8 h-8 Logo" alt="FlowBite Logo" /> 
+                <span class="self-center text-xl font-semibold sm:text-2xl whitespace-nowrap dark:text-white"> Simify</span>
                 </a>
             </div>
             <div class="flex items-center">

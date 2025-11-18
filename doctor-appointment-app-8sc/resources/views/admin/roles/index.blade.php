@@ -1,9 +1,6 @@
 <x-admin-layout title="Roles | Healthify" :breadcrumbs="[
     ['name' => 'Dashboard', 
     'href' => route('admin.dashboard')],
-
-    ['name' => 'DSC', 
-    'href' => route('admin.dashboard')],
     
     ['name' => 'Roles']
 ]">
